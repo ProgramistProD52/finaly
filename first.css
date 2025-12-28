@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3c63e6;
+    color: black;
+}
+
+
+header {
+   background-image:linear-gradient(to right, #8e7cc3, rgb(136, 0, 95) ) ;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    
+    background: linear-gradient(270deg, #00ff00, #3333ff, #00ffcc, #00ff9d);                                             
+   -webkit-background-clip: text;
+  color: transparent;
+   box-shadow: 0 15px 40px rgba(5, 180, 72, 0.623);
+   font-size: 45px;
+ }
+
+
+.home-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: linear-gradient(270deg, #00ffcc, #00ff9d);
+    color: black;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+nav {
+    background-color: #d9b8ff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.phones {
+    padding: 20px;
+}
+
+
+.phone-card {
+    background-image:linear-gradient(to right, #3d5afe, rgb(0, 0, 92) ) ;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.phone-card img {
+    width: 80px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+button {
+    background-color: #00ff00;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.no-stock {
+    background-color: red;
+    color: white;
+    cursor: not-allowed;
+}
+
+
+.warning {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+.label {
+    background-color: #00ff00;
+    color: black;
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+footer {
+    background-image:linear-gradient(to right, #8e7cc3, rgb(136, 0, 95) ) ;
+    text-align: center;
+    padding: 15px;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+
+p {
+    margin: 5px 0;
+}
+.phone {
+    font-weight: bold;
+}
+footer p, h2{
+    color: rgb(247, 0, 255);
+  text-shadow: 0 0 5px rgb(255, 0, 179),
+    0 0 15px rgb(255, 0, 179),
+    0 0 30px rgb(255, 0, 179);
+    font-size: 20px;
+}
